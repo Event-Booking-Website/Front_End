@@ -1,0 +1,16 @@
+[
+	{
+		"id": 1,
+		"surname": "Janette",
+		"name": "Ben Jomaa",
+		"testimonial": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptates in qui quo totam.Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptates in qui quo totam.Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptates in qui quo totam.Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptates in qui quo totam.",
+		"pictureUrl": "../img/Events/client1-small.jpg"
+	},
+	{
+		"id": 2,
+		"surname": "John",
+		"name": "Ben Jomaa",
+		"testimonial": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptates in qui quo totam.Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptates in qui quo totam.Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptates in qui quo totam.Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptates in qui quo totam.",
+		"pictureUrl": "../img/Events/client2-small.jpg"
+	}
+]

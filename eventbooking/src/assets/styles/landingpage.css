@@ -1,0 +1,135 @@
+.home-landing-message p {
+	font-weight: 300;
+	color: #111;
+}
+.banner {
+	position: relative;
+	width: 100%;
+	min-height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background: url('../../../public/img/landing-image.jpg');
+	background-size: cover;
+}
+.banner .home-landing-message {
+	max-width: 900px;
+	text-align: center;
+}
+.banner .home-landing-message h2 {
+	font-size: 5em;
+	color: #fff;
+}
+.banner .home-landing-message p {
+	font-size: 1em;
+	color: #fff;
+}
+.landing-button {
+	text-decoration: none;
+	font-size: 1em;
+	color: #fff;
+	background-color: var(--themeColor);
+	display: inline-block;
+	padding: 10px 30px;
+	margin-top: 20px;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	transition: 0.5s;
+	border-radius: 5px;
+	height: 40px;
+}
+.landing-button:hover {
+	letter-spacing: 6px;
+}
+section {
+	padding: 100px 100px 0px 100px;
+}
+.row {
+	position: relative;
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+}
+.row .col50 {
+	position: relative;
+	width: 48%;
+}
+.aboutUs-title {
+	color: var(--themeColor);
+	font-size: 2em;
+	font-weight: 300;
+}
+.aboutUs-title span {
+	font-size: 1.5em;
+	color: var(--secondThemeColor);
+}
+.row .col50 .about-imgBx {
+	position: relative;
+	width: 100%;
+	height: 100%;
+}
+.row .col50 .about-imgBx img {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+.event-title-text {
+	color: var(--themeColor);
+	font-size: 2em;
+	font-weight: 300;
+}
+.event-title h2 span {
+	font-size: 1.5em;
+	color: var(--secondThemeColor);
+}
+.event-title {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	text-align: center;
+}
+.events .event-content {
+	position: relative;
+	display: flex;
+	justify-content: center;
+	flex-direction: row-reverse;
+	flex-wrap: wrap;
+	margin-top: 20px;
+}
+.experts .event-content {
+	position: relative;
+	display: flex;
+	justify-content: center;
+	flex-direction: row-reverse;
+	flex-wrap: wrap;
+	margin-top: 20px;
+}
+
+#view-all {
+	position: absolute;
+	bottom: -50px;
+}
+.testimonials {
+	margin-top: 100px;
+	background: url('../../../public/img/testimonial_bg2.jpg');
+	background-size: cover;
+}
+.white {
+	color: #fff;
+}
+.testimonials-content {
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	flex-direction: row;
+	margin-top: 40px;
+}
+.contact {
+	background: url('../../../public//img/contact_bg.jpg');
+	background-size: cover;
+}
