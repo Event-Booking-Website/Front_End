@@ -42,3 +42,9 @@
 	cursor: pointer;
 	border-radius: 5px;
 }
+@media (max-width: 991px) {
+	.contactForm {
+		padding: 25px 30px;
+		margin-top: 20px;
+	}
+}

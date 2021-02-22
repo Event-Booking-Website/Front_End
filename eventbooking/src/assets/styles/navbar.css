@@ -50,3 +50,56 @@ header.sticky .navigation li a {
 header .navigation li a:hover {
 	color: var(--secondThemeColor);
 }
+@media (max-width: 991px) {
+	header,
+	header.sticky {
+		padding: 10px 20px;
+	}
+	header .navigation {
+		display: none;
+	}
+	header .navigation.active {
+		width: 100%;
+		height: calc(100% - 70px);
+		position: fixed;
+		top: 70px;
+		left: 0;
+		display: flex;
+		justify-content: center;
+		justify-content: center;
+		align-items: center;
+		flex-direction: column;
+		background-color: #fff;
+	}
+	header .navigation li {
+		margin-left: 0px;
+		margin-bottom: 55px;
+	}
+	header .navigation li a {
+		color: var(--themeColor);
+		font-size: 1.8em;
+	}
+	.menuToggle {
+		position: relative;
+		width: 50px;
+		height: 50px;
+		background: url('../../../public/img/icons/menu-white.png');
+		background-size: 50px;
+		background-repeat: no-repeat;
+		background-position: center;
+		cursor: pointer;
+	}
+	.menuToggle.active {
+		background: url('../../../public/img/icons/close-whiteColor.png');
+		background-size: 50px;
+		background-repeat: no-repeat;
+		background-position: center;
+		cursor: pointer;
+	}
+	header.sticky .menuToggle {
+		background-image: url('../../../public/img/icons/menu-themecolor.png');
+	}
+	header.sticky .menuToggle.active {
+		background-image: url('../../../public/img/icons/close-themeColor.png');
+	}
+}

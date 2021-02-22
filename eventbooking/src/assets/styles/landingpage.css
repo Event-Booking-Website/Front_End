@@ -133,3 +133,24 @@ section {
 	background: url('../../../public//img/contact_bg.jpg');
 	background-size: cover;
 }
+@media (max-width: 991px) {
+	section {
+		padding: 30px;
+	}
+	.banner .home-landing-message h2 {
+		font-size: 3em;
+	}
+	.row {
+		flex-direction: column;
+	}
+	.row .col50 {
+		width: 100%;
+	}
+	.row .col50 .about-imgBx {
+		height: 300px;
+		margin-top: 20px;
+	}
+	.testimonials-content {
+		margin-top: 15px;
+	}
+}

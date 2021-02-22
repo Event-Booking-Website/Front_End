@@ -1,13 +1,14 @@
 <template>
 	<header>
 		<a href="#" class="logo">Nanis<span>.</span></a>
+		<div class="menuToggle" @click="toggleMenu()"></div>
 		<ul class="navigation">
-			<li><a href="#banner">Home</a></li>
-			<li><a href="#about">About</a></li>
-			<li><a href="#events">Events</a></li>
-			<li><a href="#experts">Experts</a></li>
-			<li><a href="#testimonials">Testimonials</a></li>
-			<li><a href="#contact">Contact</a></li>
+			<li><a href="#banner" @click="toggleMenu()">Home</a></li>
+			<li><a href="#about" @click="toggleMenu()">About</a></li>
+			<li><a href="#events" @click="toggleMenu()">Events</a></li>
+			<li><a href="#experts" @click="toggleMenu()">Experts</a></li>
+			<li><a href="#testimonials" @click="toggleMenu()">Testimonials</a></li>
+			<li><a href="#contact" @click="toggleMenu()">Contact</a></li>
 		</ul>
 	</header>
 </template>
@@ -25,6 +26,12 @@ export default {
 		handleScroll(event) {
 			const header = document.querySelector('header');
 			header.classList.toggle('sticky', window.scrollY > 0);
+		},
+		toggleMenu() {
+			const menuToggle = document.querySelector('.menuToggle');
+			const navigation = document.querySelector('.navigation');
+			menuToggle.classList.toggle('active');
+			navigation.classList.toggle('active');
 		},
 	},
 };

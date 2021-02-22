@@ -24,3 +24,8 @@
 	font-weight: 400;
 	color: var(--themeColor);
 }
+@media (max-width: 991px) {
+	.event-box {
+		margin: 10px;
+	}
+}
