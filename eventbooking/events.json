@@ -1,40 +1,164 @@
 [
 	{
 		"id": 1,
-		"title": "Fatma Rends les clés",
-		"boxPictureLink": "../img/Events/event1-small.jpg",
-		"expertName": "Pikachu",
+		"title": "Tournée des Beys",
+		"descriptionText": {
+			"subTitle": "Le charme et le raffinement venus d’un autre temps",
+			"highlight": [
+				"Découvrez les trésors cachés de l’une des médinas les mieux préservées au monde.",
+				"Laissez un historien, amoureux de sa ville, vous entrainer au cœur de la vie des Beys de Tunisie.",
+				"Appréciez le raffinement d’une musique ottomane-andalouse, dont les refrains sont jalousement préservées au cœur de la Rachidia.",
+				"Visitez : Souk el Berka, Errachidia, El Medrasa Esslimania, Dar Ben Achour et bien d’autres attraits"
+			],
+			"program": "Cette tournée de quelques heures dans les rues de la Médina de Tunis est conçue pour les amoureux de l’histoire et de l’architecture.\nA travers les monuments historiques, les palais ainsi que les monuments religieux, votre expert historien. \nLes deys et les beys n auront plus de secrets pour vous. \nMedina, son serail, ses rues etroites et ses medrassas.\nPatrimoine mondial de l unesco. \nPassant par l abolition de l esclavage, jusqu a la derniere Odalisque. \nHeritage culturel et artistique. \nBrassage ottoman et andalous",
+			"duration": "3h 30min",
+			"place": "Tunis",
+			"languages": "Français - Anglais - Italien - Allemand ",
+			"type": "Histoire",
+			"include": "Eau, parapluie, ...",
+			"maxGroup": "Groupes privés jusqu'à 12 voyageurs.",
+			"needs": [
+				"Les rues pavées peuvent être glissantes les jours de pluie. Munissez vous d’une bonne paire d’espadrilles",
+				"Les rues pavées peuvent être glissantes les jours de pluie. Munissez vous d’une bonne paire d’espadrilles"
+			],
+			"booking": [
+				{
+					"user": "Pour réserver pour une personne, choisissez les dates proposées"
+				},
+				{
+					"users": " Les tarifs pour groupe privé commencent à partir de $210."
+				}
+			]
+		},
+		"boxPictureLink": [
+			"../img/Events/event4-small.jpg",
+			"../img/Events/event3-small.jpg",
+			"../img/Events/event2-small.jpg"
+		],
+		"picturesUrl": [
+			"https://images.pexels.com/photos/2215787/pexels-photo-2215787.jpeg?cs=srgb&dl=pexels-samir-jammal-2215787.jpg&fm=jpg",
+			"https://images.pexels.com/photos/3061496/pexels-photo-3061496.jpeg?cs=srgb&dl=pexels-mark-neal-3061496.jpg&fm=jpg",
+			"https://images.pexels.com/photos/3889986/pexels-photo-3889986.jpeg?cs=srgb&dl=pexels-taryn-elliott-3889986.jpg&fm=jpg",
+			"https://images.pexels.com/photos/4502967/pexels-photo-4502967.jpeg?cs=srgb&dl=pexels-taryn-elliott-4502967.jpg&fm=jpg",
+			"https://images.pexels.com/photos/2404046/pexels-photo-2404046.jpeg?cs=srgb&dl=pexels-gabriel-garcia-2404046.jpg&fm=jpg"
+		],
 		"expertPicture": "../img/Events/expert1-small.jpg"
 	},
 	{
 		"id": 2,
-		"title": "Fatma rentre chez toi",
-		"boxPictureLink": "../img/Events/event2-small.jpg",
+		"title": "Tournée des Beys",
+		"descriptionText": {
+			"subTitle": "Le charme et le raffinement venus d’un autre temps",
+			"highlight": [
+				"Découvrez les trésors cachés de l’une des médinas les mieux préservées au monde.",
+				"Laissez un historien, amoureux de sa ville, vous entrainer au cœur de la vie des Beys de Tunisie.",
+				"Appréciez le raffinement d’une musique ottomane-andalouse, dont les refrains sont jalousement préservées au cœur de la Rachidia.",
+				"Visitez : Souk el Berka, Errachidia, El Medrasa Esslimania, Dar Ben Achour et bien d’autres attraits"
+			],
+			"program": "Cette tournée de quelques heures dans les rues de la Médina de Tunis est conçue pour les amoureux de l’histoire et de l’architecture.\nA travers les monuments historiques, les palais ainsi que les monuments religieux, votre expert historien. \nLes deys et les beys n auront plus de secrets pour vous. \nMedina, son serail, ses rues etroites et ses medrassas.\nPatrimoine mondial de l unesco. \nPassant par l abolition de l esclavage, jusqu a la derniere Odalisque. \nHeritage culturel et artistique. \nBrassage ottoman et andalous",
+			"duration": "2h",
+			"place": "Tunis",
+			"languages": "Français - Anglais - Italien - Allemand ",
+			"type": "Cuisine",
+			"include": "Eau, parapluie, ...",
+			"maxGroup": "Groupes privés jusqu'à 12 voyageurs.",
+			"needs": [
+				"Les rues pavées peuvent être glissantes les jours de pluie. Munissez vous d’une bonne paire d’espadrilles",
+				"Les rues pavées peuvent être glissantes les jours de pluie. Munissez vous d’une bonne paire d’espadrilles"
+			],
+			"booking": [
+				{
+					"user": "Pour réserver pour une personne, choisissez les dates proposées"
+				},
+				{
+					"users": " Les tarifs pour groupe privé commencent à partir de $210."
+				}
+			]
+		},
+		"boxPictureLink": [
+			"../img/Events/event4-small.jpg",
+			"../img/Events/event3-small.jpg",
+			"../img/Events/event2-small.jpg"
+		],
 		"expertName": "Barack Obama",
 		"expertPicture": "../img/Events/expert2-small.jpg"
 	},
 	{
 		"id": 3,
-		"title": "Fatma enferme toi",
-		"boxPictureLink": "../img/Events/event3-small.jpg",
+		"title": "Tournée des Beys",
+		"boxPictureLink": [
+			"../img/Events/event4-small.jpg",
+			"../img/Events/event3-small.jpg",
+			"../img/Events/event2-small.jpg"
+		],
 		"expertName": "Chef Gordon Ramsay",
-		"expertPicture": "../img/Events/expert3-small.jpg"
+		"expertPicture": "../img/Events/expert3-small.jpg",
+		"descriptionText": {
+			"subTitle": "Le charme et le raffinement venus d’un autre temps",
+			"highlight": [
+				"Découvrez les trésors cachés de l’une des médinas les mieux préservées au monde.",
+				"Laissez un historien, amoureux de sa ville, vous entrainer au cœur de la vie des Beys de Tunisie.",
+				"Appréciez le raffinement d’une musique ottomane-andalouse, dont les refrains sont jalousement préservées au cœur de la Rachidia.",
+				"Visitez : Souk el Berka, Errachidia, El Medrasa Esslimania, Dar Ben Achour et bien d’autres attraits"
+			],
+			"program": "Cette tournée de quelques heures dans les rues de la Médina de Tunis est conçue pour les amoureux de l’histoire et de l’architecture.\nA travers les monuments historiques, les palais ainsi que les monuments religieux, votre expert historien. \nLes deys et les beys n auront plus de secrets pour vous. \nMedina, son serail, ses rues etroites et ses medrassas.\nPatrimoine mondial de l unesco. \nPassant par l abolition de l esclavage, jusqu a la derniere Odalisque. \nHeritage culturel et artistique. \nBrassage ottoman et andalous",
+			"duration": "4h 30min",
+			"place": "Tunis",
+			"languages": "Français - Anglais - Italien - Allemand ",
+			"type": "Randonnée",
+			"include": "Eau, parapluie, ...",
+			"maxGroup": "Groupes privés jusqu'à 12 voyageurs.",
+			"needs": [
+				"Les rues pavées peuvent être glissantes les jours de pluie. Munissez vous d’une bonne paire d’espadrilles",
+				"Les rues pavées peuvent être glissantes les jours de pluie. Munissez vous d’une bonne paire d’espadrilles"
+			],
+			"booking": [
+				{
+					"user": "Pour réserver pour une personne, choisissez les dates proposées"
+				},
+				{
+					"users": " Les tarifs pour groupe privé commencent à partir de $210."
+				}
+			]
+		}
 	},
 	{
 		"id": 4,
-		"title": "Fatma attache toi au radiateur",
-		"boxPictureLink": "../img/Events/event4-small.jpg",
+		"title": "Tournée des Beys",
+		"boxPictureLink": [
+			"../img/Events/event4-small.jpg",
+			"../img/Events/event3-small.jpg",
+			"../img/Events/event2-small.jpg"
+		],
 		"expertName": "Mami Nova",
-		"expertPicture": "../img/Events/expert4-small.jpg"
-	},
-	{
-		"id": 5,
-		"title": "Fatma efhem rou7ek",
-		"boxPictureLink": "../img/Events/event1-small.jpg"
-	},
-	{
-		"id": 6,
-		"title": "Fatma efhem rou7ek",
-		"boxPictureLink": "../img/Events/event2-small.jpg"
+		"expertPicture": "../img/Events/expert4-small.jpg",
+		"descriptionText": {
+			"subTitle": "Le charme et le raffinement venus d’un autre temps",
+			"highlight": [
+				"Découvrez les trésors cachés de l’une des médinas les mieux préservées au monde.",
+				"Laissez un historien, amoureux de sa ville, vous entrainer au cœur de la vie des Beys de Tunisie.",
+				"Appréciez le raffinement d’une musique ottomane-andalouse, dont les refrains sont jalousement préservées au cœur de la Rachidia.",
+				"Visitez : Souk el Berka, Errachidia, El Medrasa Esslimania, Dar Ben Achour et bien d’autres attraits"
+			],
+			"program": "Cette tournée de quelques heures dans les rues de la Médina de Tunis est conçue pour les amoureux de l’histoire et de l’architecture.\nA travers les monuments historiques, les palais ainsi que les monuments religieux, votre expert historien. \nLes deys et les beys n auront plus de secrets pour vous. \nMedina, son serail, ses rues etroites et ses medrassas.\nPatrimoine mondial de l unesco. \nPassant par l abolition de l esclavage, jusqu a la derniere Odalisque. \nHeritage culturel et artistique. \nBrassage ottoman et andalous",
+			"duration": "1h 30min",
+			"place": "Tunis",
+			"languages": "Français - Anglais - Italien - Allemand ",
+			"type": "Art",
+			"include": "Eau, parapluie, ...",
+			"maxGroup": "Groupes privés jusqu'à 12 voyageurs.",
+			"needs": [
+				"Les rues pavées peuvent être glissantes les jours de pluie. Munissez vous d’une bonne paire d’espadrilles",
+				"Les rues pavées peuvent être glissantes les jours de pluie. Munissez vous d’une bonne paire d’espadrilles"
+			],
+			"booking": [
+				{
+					"user": "Pour réserver pour une personne, choisissez les dates proposées"
+				},
+				{
+					"users": " Les tarifs pour groupe privé commencent à partir de $210."
+				}
+			]
+		}
 	}
 ]

@@ -1,0 +1,23 @@
+.event-page {
+	min-height: 100vh;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+}
+.event-page-row {
+	position: relative;
+	width: 80%;
+	display: flex;
+	justify-content: space-between;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+.event-page-row .col70 {
+	position: relative;
+	width: 70%;
+}
+
+.event-page-row .col30 {
+	position: relative;
+	width: 30%;
+}

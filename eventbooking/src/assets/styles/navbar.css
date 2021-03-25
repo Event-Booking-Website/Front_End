@@ -11,7 +11,7 @@ header {
 	transition: 0.5s;
 }
 header .logo {
-	color: #fff;
+	color: var(--secondThemeColor);
 	font-weight: 700;
 	font-size: 2em;
 	text-decoration: none;
@@ -29,7 +29,7 @@ header .navigation li {
 }
 header .navigation li a {
 	text-decoration: none;
-	color: #fff;
+	color: var(--secondThemeColor);
 	font-weight: 400;
 	transition: 0.3s;
 }

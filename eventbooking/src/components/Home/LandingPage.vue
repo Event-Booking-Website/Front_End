@@ -47,8 +47,20 @@
 			</p>
 		</div>
 		<div class="event-content">
-			<div v-for="{ title, boxPictureLink, id } in events" :key="id">
-				<EventBox :title="title" :pictureUrl="boxPictureLink" />
+			<div
+				v-for="{ title, boxPictureLink, id, descriptionText } in events"
+				:key="id"
+			>
+				<router-link
+					class="rlink-none"
+					:to="{ name: 'EventPage', params: { id: id } }"
+				>
+					<EventBox
+						:title="title"
+						:pictureUrl="boxPictureLink"
+						:duration="descriptionText.duration"
+						:type="descriptionText.type"
+				/></router-link>
 			</div>
 			<a href="#" class="landing-button" id="view-all">View all</a>
 		</div>

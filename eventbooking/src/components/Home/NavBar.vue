@@ -1,6 +1,8 @@
 <template>
 	<header>
-		<a href="#" class="logo">Nanis<span>.</span></a>
+		<router-link class="rlink-none" :to="{ name: 'Home' }">
+			<a href="#" class="logo">Nanis<span>.</span></a>
+		</router-link>
 		<div class="menuToggle" @click="toggleMenu()"></div>
 		<ul class="navigation">
 			<li><a href="#banner" @click="toggleMenu()">Home</a></li>

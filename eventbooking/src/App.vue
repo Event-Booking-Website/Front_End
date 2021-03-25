@@ -1,10 +1,13 @@
 <template>
-	<div>
-		<!-- <router-link to="/">Home</router-link> | -->
-	</div>
+	<NavBar />
 	<router-view />
 </template>
-<script></script>
+<script>
+import NavBar from './components/Home/NavBar.vue';
+export default {
+	components: { NavBar },
+};
+</script>
 <style>
 @import './assets/styles/main.css';
 </style>
