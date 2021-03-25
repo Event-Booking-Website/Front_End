@@ -14,7 +14,7 @@ export default {
 	},
 	mounted() {
 		// $Scriptjs(
-		// 	'https://maps.googleapis.com/maps/api/js?key=AIzaSyBISjmGTuacGuwoXPIFVi6zysvlGrx8Mrk&callback=initMap&libraries=&v=weekly',
+		// 	'https://maps.googleapis.com/maps/api/js?key=THEKEY&callback=initMap&libraries=&v=weekly',
 		// 	() => {
 		// 		this.initMap();
 		// 	}
