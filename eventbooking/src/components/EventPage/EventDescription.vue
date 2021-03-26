@@ -53,11 +53,25 @@
 				/>
 			</div>
 		</div>
+		<div class="description-slot">
+			<h2>Point de RDV</h2>
+			<div class="google-map-indication">
+				<MapIndication />
+			</div>
+		</div>
 	</div>
 </template>
 
 <script>
-export default { name: 'EventDescription', props: ['descriptionText'] };
+import MapIndication from './MapIndication.vue';
+
+export default {
+	name: 'EventDescription',
+	props: ['descriptionText'],
+	components: {
+		MapIndication,
+	},
+};
 </script>
 
 <style>

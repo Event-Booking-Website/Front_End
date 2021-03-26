@@ -1,38 +1,37 @@
 <template>
-	<div class="google-map-indication">
-		<div>google map</div>
-		<div id="map"></div>
+	<div class="map-wrapper">
+		<iframe
+			width="500"
+			height="500"
+			style="border:0"
+			loading="lazy"
+			allowfullscreen
+			:src="link"
+		></iframe>
 	</div>
 </template>
 
 <script>
-//import $Scriptjs from 'scriptjs';
+import call from '../../../config/api.js';
 export default {
 	name: 'MapIndication',
 	data() {
-		return { map: null };
+		return {
+			link: `https://www.google.com/maps/embed/v1/place?q=place_id:ChIJDeUNT3U0_RIRMU9KwrJeBdY&key=${call.call}`,
+		};
 	},
-	mounted() {
-		// $Scriptjs(
-		// 	'https://maps.googleapis.com/maps/api/js?key=THEKEY&callback=initMap&libraries=&v=weekly',
-		// 	() => {
-		// 		this.initMap();
-		// 	}
-		// );
-	},
-	methods: {
-		initMap() {
-			this.map = new google.maps.Map(document.getElementById('map'), {
-				center: { lat: -34.397, lng: 150.644 },
-				zoom: 8,
-			});
-		},
+	created() {
+		console.log(this.call);
 	},
 };
 </script>
 
 <style>
-#map {
+.map-wrapper {
+	position: relative;
+	width: 500px;
 	height: 500px;
+	border-radius: 10%;
+	overflow: hidden;
 }
 </style>

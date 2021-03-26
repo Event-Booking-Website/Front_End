@@ -4,7 +4,6 @@
 		<div class="event-page-row">
 			<div class="col70">
 				<EventDescription :descriptionText="myEvent.descriptionText" />
-				<MapIndication />
 			</div>
 			<div class="col30">
 				<DateBooking />
@@ -19,7 +18,6 @@ import NavBar from '../components/Home/NavBar.vue';
 import PicturesDisplay from '../components/EventPage/PicturesDisplay.vue';
 import EventDescription from '../components/EventPage/EventDescription.vue';
 import DateBooking from '../components/EventPage/DateBooking.vue';
-import MapIndication from '../components/EventPage/MapIndication.vue';
 
 export default {
 	name: 'EventPage',
@@ -27,7 +25,7 @@ export default {
 	components: {
 		NavBar,
 		PicturesDisplay,
-		MapIndication,
+
 		EventDescription,
 		DateBooking,
 	},
